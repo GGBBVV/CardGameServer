@@ -1,0 +1,44 @@
+[debug] [2022-09-26T04:47:14.754Z] ----------------------------------------------------------------------
+[debug] [2022-09-26T04:47:14.755Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\coryd\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-09-26T04:47:14.756Z] CLI Version:   11.10.0
+[debug] [2022-09-26T04:47:14.756Z] Platform:      win32
+[debug] [2022-09-26T04:47:14.756Z] Node Version:  v16.14.0
+[debug] [2022-09-26T04:47:14.757Z] Time:          Mon Sep 26 2022 17:47:14 GMT+1300 (New Zealand Daylight Time)
+[debug] [2022-09-26T04:47:14.757Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-26T04:47:14.765Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-26T04:47:14.766Z] > authorizing via signed-in user (corydaguy@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\coryd\Code\CardGameReact\server
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-26T04:47:42.023Z] > refreshing access token with scopes: []
+[debug] [2022-09-26T04:47:42.025Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-26T04:47:42.025Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-26T04:47:42.423Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-26T04:47:42.423Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-26T04:47:42.433Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-09-26T04:47:43.292Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-09-26T04:47:43.293Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project cardgame-8728e (CardGame) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
